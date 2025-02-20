@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -10,23 +11,43 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Fixed hot/cold stim medulla (2025). (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001337/draft
+citation: Balakrishnan, Kaarthik A; Haesemeyer, Martin (2025) Fixed hot/cold stim
+  medulla (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001337/draft
 contributor:
 - awardNumber: 5 R01 NS 123887-04
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- includeInCitation: true
+  name: Balakrishnan, Kaarthik A
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- email: haesemeyer.1@osu.edu
+  identifier: 0000-0003-2704-3601
+  includeInCitation: true
+  name: Haesemeyer, Martin
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2025-02-19T19:22:44.092599+00:00'
 description: 2-photon calcium imaging in medulla/hindbrain using hot/cold flow stimuli
+ethicsApproval: []
 id: DANDI:001337/draft
 identifier: DANDI:001337
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001337/versions/draft/assets/
 name: Fixed hot/cold stim medulla
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001337/draft
 version: draft
+wasGeneratedBy: []
